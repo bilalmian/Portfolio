@@ -1,0 +1,344 @@
+
+
+body {
+	background-image: url("../images/concrete_seamless.png");
+	margin: 0 auto;
+}
+
+header {
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	height: 90px;
+	}
+
+html{
+	margin: 0 auto;
+	}
+
+footer {
+	margin-top: 550px;
+	text-align: center;
+	}
+
+form {
+	font-family: Helvetica Neue;
+    color: #777777;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+input {
+	width: 575px;
+	height: 26px;
+	margin-top: 11px;
+	margin-bottom: 18px;
+	border: solid 1px #dddddd;
+	padding-left: 10px;
+	font-family: Helvetica Neue;
+	font-size: 15px;
+	color: #777777;
+
+}
+
+input:placeholder-shown {
+	font-family: Helvetica Neue;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+input[type="submit"] {
+	background-color: #4aaaa5;
+	width: 120px;
+	height: 40px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+input[type="submit"]:hover {
+	background-color: white;
+	color:#4aaaa5;
+	cursor: pointer;
+}
+
+input:focus::-webkit-input-placeholder { 
+	color:transparent; 
+	}
+
+input:focus:-moz-placeholder { 
+	color:transparent; 
+	} /* Firefox 18- */
+
+input:focus::-moz-placeholder { 
+	color:transparent; 
+	} /* Firefox 19+ */
+
+input:focus:-ms-input-placeholder { 
+	color:transparent; 
+	} /* oldIE ;) */
+
+section {
+	margin: 0 auto;
+	width: 980px;
+	}
+
+textarea {
+	height: 197px;
+	width: 582px;
+	margin-top: 11px;
+	margin-bottom: 18px;
+	border: solid 1px #dddddd;
+}
+
+#aboutMe {
+	background-color: #ffffff;
+	height: 418px;
+	width: 588px;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	border: 1px solid #dddddd;
+	padding: 30px;
+	float: left;
+	}
+
+#connectMe {
+	background-color: #ffffff;
+	height: 200px;
+	width: 268px;
+	margin-top: 40px;
+	margin-right: 10px;
+	float: right;
+	border: 1px solid #dddddd;
+	text-align: left;
+	}
+
+#contactMe {
+	background-color: #ffffff;
+	height: 569px;
+	width: 588px;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	border: 1px solid #dddddd;
+	padding: 30px 30px 11px 30px;
+	float: left;
+	}
+
+#container {
+	padding-top: 32px;
+}
+
+#footerGray {
+	background-color: #666666;
+	height: 53px;
+	color: #dddddd;
+	text-align: center;
+	font-size: 12px;
+	font-family: Helvetica Neue;
+	}
+
+#gitHub {
+		height: 60px;
+		width: 60px;
+		padding-left: 30px;
+		padding-top: 25px;
+}
+
+#lineBreak {
+		background-color: #dddddd;
+		height: 2px;
+		width: 209px;
+		margin-left: 30px;
+		margin-top: 18px;
+}
+
+#linkedIn {
+		padding-left: 10px;
+}
+
+#nameBox {
+	background: #4aaaa5;
+    width: 250px;
+    height: 64px;
+    text-align: center;
+    color: white;
+    margin-left: 160px;
+    font-family: Georgia;
+    margin-right: 0px;
+    font-size: 33px;
+    padding-top: 26px;
+
+	}
+
+.navBar1 {
+		display: inline;
+		color: #777777;
+}
+
+.navBar2 {
+		display: inline;
+		color: #777777;
+}
+
+.navBar3 {
+		display: inline;
+		color: #777777;
+}
+
+#navLinks {
+		color: #777777;
+		padding-right: 161px;
+		display: inline;
+		padding-top: 30px;
+		float: right;
+		;
+}
+
+#portfolioMe {
+	background-color: #ffffff;
+	height: 902px;
+	width: 588px;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	border: 1px solid #dddddd;
+	padding: 30px 30px 11px 30px;
+	float: left;
+	}
+
+#projectHangman {
+	float: left;
+	margin-bottom: 55px;
+	border: solid 1px #dddddd;
+
+}
+
+#projectRPG {
+	float:right;
+	margin-bottom: 55px;
+	border: solid 1px #dddddd;
+}
+
+#projectTrivia {
+	float: left;
+	margin-bottom: 55px;
+	border: solid 1px #dddddd;
+}
+
+#projectWidget {
+	float: right;
+	margin-bottom: 55px;
+	border: solid 1px #dddddd;
+}
+
+#projectRock {
+	float: left;
+	border: solid 1px #dddddd;
+
+}
+		
+#stackOverflow {
+		padding-left: 10px;
+}
+
+#tealBar {
+		background-color: #4aaaa5;
+		height: 8px;
+		
+}
+
+#textHangman {
+    z-index: 100;
+    margin-left: 2px;
+    position: absolute;
+    color: white;
+    background: #4aaaa5;
+    width: 275px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 391px;
+    padding-top: 15px;
+    text-align: center;
+    left: 190px;
+   	}
+
+#textRPG {
+    z-index: 100;
+    margin-left: 2px;
+    position: absolute;
+    color: white;
+    background: #4aaaa5;
+    width: 275px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 391px;
+    padding-top: 15px;
+    text-align: center;
+    left: 501px;
+   	}
+
+#textTrivia {
+    z-index: 100;
+    margin-left: 2px;
+    position: absolute;
+    color: white;
+    background: #4aaaa5;
+    width: 275px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 657px;
+    padding-top: 15px;
+    text-align: center;
+    left: 190px;
+   	}
+
+#textWidget {
+    z-index: 100;
+    margin-left: 2px;
+    position: absolute;
+    color: white;
+    background: #4aaaa5;
+    width: 275px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 657px;
+    padding-top: 15px;
+    text-align: center;
+    left: 501px;
+   	}
+
+ #textRock {
+    z-index: 100;
+    margin-left: 2px;
+    position: absolute;
+    color: white;
+    background: #4aaaa5;
+    width: 275px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 923px;
+    padding-top: 15px;
+    text-align: center;
+    left: 190px;
+   	}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+a:link {
+	color: #777777;
+}
